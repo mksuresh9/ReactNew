@@ -66,7 +66,7 @@ let url = `https://5f0c985a11b7f600160560d7.mockapi.io/mobiles/mobiles/${id}`
     });
   }
   editMobile(id,mobileName, rating){
-    console.log("in edit ")
+   // console.log("in edit ")
     this.setState({
       editMobileData: {id,mobileName, rating}, editMobileModal: !this.state.editMobileModal
 
